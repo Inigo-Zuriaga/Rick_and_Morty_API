@@ -15,7 +15,7 @@ export default function ChipList({ items, onRemoveItem }: ChipListProps) {
   return (
     <div className={styles.container}>
       {items.map((item) => {
-        return <Chip variant="filled" text={item} onClick={handleClick} />;
+        return <Chip text={item} onClick={handleClick} />;
       })}
     </div>
   );
