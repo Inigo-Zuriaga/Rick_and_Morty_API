@@ -1,0 +1,17 @@
+.cardsContainer {
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 52px;
+    justify-items: center;
+    
+  }
+  
+  .showMoreButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  

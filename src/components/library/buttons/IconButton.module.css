@@ -1,0 +1,22 @@
+.iconButton {
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+}
+svg {
+  width: 14px;
+  height: 18px;
+}
+
+.small {
+  width: 10px;
+  height: 14px;
+}
+.medium {
+  width: 14px;
+  height: 18px;
+}
+.large {
+  width: 18px;
+  height: 24px;
+}

@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.outlined input {
+    border-color: #00B0C8;
+    outline: none;
+}
+
+.outlined label {
+    position: absolute;
+    margin: 16px;
+    transition: 0.1s;
+}
+
+.inputText {
+    padding: 14.4px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #49454F;
+}
+
+.inputText:not(:focus)::placeholder {
+    color: transparent;
+}
+
+.labelText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #49454F;
+}
+
+.supportingText {
+    margin: 4px 16px 0 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #49454F;
+}
+
+.outlined input:focus ~ label,
+.outlined input:not([value=""]) ~ label {
+    padding: 0 4px;
+    transform: translateX(-4px) translateY(-24px);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #00B0C8;
+    background-color: white;
+}
+
+.filled input {
+    border-color: transparent;
+    background-color: #87FD6E33;
+    outline: none;
+}
+
+.filled label {
+    position: absolute;
+    margin: 16px;
+    transition: 0.1s;
+}
+
+.filled input:focus,
+.filled input:not([value=""]) {
+    border-color: transparent;
+    background-color: #87FD6E33;
+    padding: 22.4px 14.4px 6.4px 14.4px;
+}
+
+.filled input:focus ~ label,
+.filled input:not([value=""]) ~ label {
+    padding: 0 4px;
+    transform: translateX(-4px) translateY(-8px);
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+}

@@ -1,0 +1,17 @@
+.date-picker {
+}
+
+.date-picker select {
+  margin-right: 6px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 1rem 1rem 1rem 0.875rem;
+  font-size: 1rem;
+  border: 2px solid #00b0c8;
+  font-family: "Karla", sans-serif;
+}
+
+.date-picker select:last-child {
+  margin-right: 0;
+}

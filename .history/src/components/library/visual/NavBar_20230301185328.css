@@ -1,0 +1,52 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+body {
+  padding-top: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.titles {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+div > a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+div > a:hover {
+  background-color: #f2f2f2;
+}

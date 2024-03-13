@@ -1,0 +1,31 @@
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .cardDiv img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .cardDiv h2 {
+    font-size: 18px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .cardDiv p {
+    font-size: 14px;
+    margin: 0 10px;
+    text-align: center;
+    padding: 10px 0;
+  }
